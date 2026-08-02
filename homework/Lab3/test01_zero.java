@@ -14,7 +14,7 @@ public class Test01_zero {
         }
         else if(a <= 0)
         {
-            System.out.println("your number less or equal zero");
+            System.out.println("your number less or equal zero WOO");
         }
         else
         {
