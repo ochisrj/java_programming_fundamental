@@ -28,7 +28,7 @@ public class Chapter04_switchcase {
                 System.out.println("Your point is 4");
                 break;
             case 'B':
-            case 'ิ':
+            case 'b':
                 System.out.println("Your point is 3");
                 break;
             case 'C':
