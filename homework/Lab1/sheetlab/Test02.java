@@ -1,4 +1,4 @@
-package Lab1;
+package Lab1.sheetlab;
 
 public class Test02{
 

@@ -1,4 +1,4 @@
-package Lab2;
+package Lab2.sheetlab;
 import java.util.Scanner;
 
 public class Test02_plus {
