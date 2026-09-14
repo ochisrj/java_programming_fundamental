@@ -6,9 +6,11 @@
 
 ## Course 
 1. Basic
-- 
 2. Variable
 3. If Else Selection
 4. For Loop Repetition
 5. Nested Loop
-6. Array
+6. Array 1 D
+
+## Credit
+นศ. กิตติภูมิ สำราญใจ 
