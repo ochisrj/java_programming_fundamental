@@ -1,4 +1,4 @@
-package learning;
+package learning.JavaFile;
 
 import java.util.Scanner;
 

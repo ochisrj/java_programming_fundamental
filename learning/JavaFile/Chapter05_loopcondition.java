@@ -1,4 +1,4 @@
-package learning;
+package learning.JavaFile;
 
 public class Chapter05_loopcondition {
 

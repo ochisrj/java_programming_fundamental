@@ -1,4 +1,4 @@
-package learning;
+package learning.JavaFile;
 
 public class Chapter06_array1d {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package learning;
+package learning.JavaFile;
 
 public class Chapter02_variable {
     public static void main(String[] args) {
