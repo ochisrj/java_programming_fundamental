@@ -22,14 +22,47 @@
 // |_|
 
 package Lab6;
-
 import java.util.Scanner;
 
-public class Test10 {
+public class Test10
+{
     public static void main(String[] args) {
         Scanner lsa = new Scanner(System.in);
-        int pos = lsa.nextInt();
+        int[] loc = new int[7];
+        for(int i = 0; i < 7; i++)
+        {
+            loc[i] = lsa.nextInt();
+        }
 
+        char[][] display = new char[3][3];
+        for(int r = 0 ; r < 3; r++)
+        {
+            for (int c = 0; c < 3; c++)
+            {
+                display[r][c] = ' ';
+            }
+        }
+        // แถวที่ 0
+        if (loc[0] == 1) display[0][1] = '_';
 
+        // แถวที่ 1
+        if (loc[1] == 1) display[1][0] = '|';
+        if (loc[2] == 1) display[1][1] = '_';
+        if (loc[3] == 1) display[1][2] = '|';
+
+        // แถวที่ 2
+        if (loc[4] == 1) display[2][0] = '|';
+        if (loc[5] == 1) display[2][1] = '_';
+        if (loc[6] == 1) display[2][2] = '|';
+
+        for(int r = 0 ; r < 3; r++)
+        {
+            for (int c = 0; c < 3; c++)
+            {
+                System.out.print(display[r][c]);
+            }
+            System.out.println();
+        }
+        lsa.close();
     }
 }
