@@ -7,7 +7,7 @@ public class Test01
     // สร้างฟังก์ชันสูตรคำนวณ
     public static int Mutis(int number)
     {
-        int result = 0;
+        int result = 0; 
         for(int i = 1; i <= number; i++) // วนลูป i โดยต้องไม่เกินค่า number
         {
             result += i * i; // เก็บผลลัพธ์และคูณ i * i
